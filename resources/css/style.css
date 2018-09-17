@@ -34,10 +34,16 @@ header {
   background-color: black;
   width: 20rem;
   font-weight: bold;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  height: auto;
+
 }
 
 .bbox h2 {
   font-size: 2rem;
+  padding-left: 3rem;
+  padding-top: 0.25rem;
 }
 
 .box {
