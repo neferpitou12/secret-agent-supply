@@ -4,16 +4,14 @@ html {
   color: white;
 }
 
-h1 {
-
-}
-
 header {
   background-color: black;
 }
 
+
 .products img {
-  height: 9rem;
+  max-height: 9rem;
+  max-width: 30%;
   padding: 2rem 0;
 }
 
@@ -39,7 +37,6 @@ header {
    width: 100%;
    background-repeat: no-repeat;
    background-size: cover;
-   justify-content: flex-start;
  }
 
 .bbox {
