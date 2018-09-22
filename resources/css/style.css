@@ -16,39 +16,58 @@ header {
   background-color: black;
 }
 
+.products img {
+  height: 9rem;
+  padding: 2rem 0;
+}
+
+.products h4 {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
 .red {
   background-color: firebrick;
   width: 100%;
+}
+
+.navi {
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: space-between;
 }
 
  .banner {
    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
    height: 25rem;
    width: 100%;
-   display: flex;
    background-repeat: no-repeat;
    background-size: cover;
+   justify-content: flex-start;
  }
 
 .bbox {
   background-color: black;
-  width: 20rem;
+  width: 25rem;
   font-weight: bold;
   padding-left: 3rem;
   padding-top: 2rem;
-  height: auto;
-
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9rem;
+  max-width: 960px;
 }
 
 .bbox h2 {
   font-size: 2rem;
-  padding-left: 3rem;
   padding-top: 0.25rem;
 }
 
 .box {
   display: flex;
   justify-content: space-between;
+  padding-top: 3rem;
 }
 
 .container {
@@ -66,6 +85,10 @@ header {
   padding: 0.5rem auto;
 }
 
+.pen img, .watch img, .glasses img {
+  box-sizing: inherit;
+}
+
 .head {
   display: flex;
   align-items: center;
@@ -76,4 +99,31 @@ header {
   height: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 1rem;
+}
+
+.set {
+  display: flex;
+  justify-content: space-between;
+}
+
+.set h5 {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+
+.location, .hours {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  width: 35%;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
