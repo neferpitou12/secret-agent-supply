@@ -4,10 +4,6 @@ html {
   color: white;
 }
 
-div {
-  border: 1px solid blue;
-}
-
 h1 {
 
 }
@@ -80,6 +76,10 @@ header {
   width: 30%;
 }
 
+.set p {
+  color: black;
+}
+
 .pen h4, .watch h4, .glasses h4 {
   background-color: black;
   padding: 0.5rem auto;
@@ -123,7 +123,8 @@ header {
 footer {
   background-color: black;
   height: 5rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+}
+
+span h5 {
+  padding: 2rem 0;
 }
